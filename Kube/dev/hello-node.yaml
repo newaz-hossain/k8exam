@@ -75,10 +75,10 @@ metadata:
 spec:  
   tls:
   - hosts:
-    - newaz.eastus2.cloudapp.azure.com
-    secretName: newaz-eastus2-cloudapp-azure-com-staging
+    - newaz.eastus.cloudapp.azure.com
+    secretName: newaz-eastus-cloudapp-azure-com-staging
   rules:
-  - host: newaz.eastus2.cloudapp.azure.com
+  - host: newaz.eastus.cloudapp.azure.com
     http:
       paths:           
       - path: /api/node
